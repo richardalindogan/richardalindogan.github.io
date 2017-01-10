@@ -4,7 +4,7 @@
         $scope.description=[
             {words:"Prospective UX designer, learning web developer, and digital art hobbyist taking on the world one design at a time."},
             {words:"Coming from a Software Engineering background, I am no stranger to team collaboration, practical design, and new technologies. "},
-            {words:"With a lifelong passion for illustration, I am versed in the importance of aethetics, form ,and creativity."},
+            {words:"With a lifelong passion for illustration, I am versed in the importance of aethetics, form, and creativity."},
             {words:"These two sides provides a broader perspective, and a skillset that can bring together the best of worlds in design."},
         ]
     });
