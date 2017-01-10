@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(17, 17, 24);
+    overflow-x: hidden;
+}
+.block{
+    display: block;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 900px;
+}
+/*Shadow*/
+#logo,#name,#ph_description,#contact_title{
+    -webkit- filter:drop-shadow(3px 3px 10px #000000);
+    filter:drop-shadow(3px 3px 10px #000000);
+}
+/*Whitesmoke color*/
+#menu,.menu_item, #name,#about,#ph_title p,#ph_description, #contact_title p,#contact_content{
+    color:whitesmoke;
+}
+/*Font - Armata*/
+.menu_item, #contact_content, #about,#ph_description{
+    font-family: 'Armata';
+}
+
+/*Background*/
+#bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#output{
+    position: fixed;
+    opacity: .8;
+    z-index: -3;
+}
+#noise{
+    height: 100%;
+    width: 100%;
+    opacity: .02;
+    background-image: url(svg_assets/noiseSection5.png);
+    position: fixed;
+    z-index: -2;
+}
+/*Home*/
+#home{
+    height: 100vh;
+    text-align: center;
+    z-index: 1;
+}
+
+#logo{
+    background-image: url(svg_assets/RA%20logo4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    height: inherit;
+    min-height: 850px;
+}
+#menu{
+    position: relative;
+    top:30%;
+    font-size: 20px;
+    text-align: center;
+    z-index: 3; 
+}
+.menu_item{
+    text-decoration: none;
+    padding: 0px 0px 5px 0px;
+}
+.menu_item:hover{
+    border-bottom: 2px solid crimson;
+    transition: border-bottom .3s ease-in-out;
+}
+#name{
+    position: relative;
+    min-height: 500px;
+    font-family: 'Lily Script One';
+    font-size:75px;
+    bottom: 35%;
+}
+/*About*/
+#about{
+    background-color: rgba(17, 17, 24,.70);
+    text-align: center;
+}
+#head{
+    display: block;
+    height: 25%;
+    padding: 25px 0px 25px 0px;
+    margin: auto;
+}
+#over_container{
+    width: 35%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+    margin: auto;
+}
+#word_container{
+    width: 100%;
+    margin: auto;
+    font-style: italic;
+}
+#word_container p{
+    padding-bottom: 10px;
+}
+#facet_container{
+    width: 100%;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+#facet_section{
+    width: 25%;
+    float: left;
+}
+#facet_container div p{
+    font-family: 'Lily Script One';
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.facet_icons{
+    height: 75px;
+    padding-right: 20px;
+}
+
+/*Placeholder - until Portfolio section is implemented*/
+#placeholder{
+     background-color: rgba(17, 17, 24,.80);
+}
+
+/*Overlap with Contacts*/
+#ph_title,#contact_title{
+    text-align: center;
+}
+#ph_title p, #contact_title p{
+    font-family: 'Lily Script One';
+    font-size: 125px;
+    margin-top: 275px;
+}
+
+#ph_title,#ph_description{
+    width: 50%;
+    height:100%;
+    min-width: 550px;
+    float: left;
+}
+#ph_description{
+     background-color: #bc3b3b;
+    font-size:15px;
+}
+#ph_wrapper{
+    margin-left: 5%;
+    margin-top: 15%;
+}
+#ph_wrapper h1{
+    padding-bottom: 3%;
+    font-size: 40px;
+}
+.ph_bit{
+    width: 75%;
+    padding-bottom: 10px;
+}
+#todo{
+    margin-left:10%;
+    margin-top: 10px;
+    font-size: 17px;
+}
+#buggy{
+    height: 200px;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+#phone{
+  height: 20%;
+}
+
+/*Contacts*/
+#contact{
+    background-color: rgba(17, 17, 24,.90);
+    z-index: 2;
+}
+#contact_title{
+    background-color: steelblue;
+    float: left;
+    width: 50%;
+    min-width: 500px;
+    height: 100%;
+}
+#contact_content{
+    float: left;
+    height: 100%;
+    width: 50%;
+    min-width: 500px;
+}
+#top_category{
+    margin-top: 125px;
+}
+.category,.info{
+    margin-left: 50px;
+}
+.category{
+    border-bottom: 1px solid whitesmoke;
+    font-size: 25px;
+    width: 65%;
+}
+.info{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.contact_icon, .info p{
+    display: inline-block;
+}
+.info p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.contact_icon{
+    height: 75px;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+.contact_icon:hover{
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}

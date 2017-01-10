@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Richard Alindogan | Design, Draw, Develop</title>
+        <link rel="icon" href="svg_assets/icon.ico">
+        <link href="graphic.css" type="text/css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <link href="//fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Lily Script One" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body ng-app="myApp">
+        <div style="min-width: 600px; margin: 0 auto;">
+            <!--bg shader-->
+            <div class="block" id="bg">
+                <div id="output"></div><div id="noise"></div>
+            </div>
+            <!--Home Section-->
+            <section class="block" id="home">
+                <nav id="menu">
+                    <a class="menu_item" data-scroll href="#about">About</a> /
+                    <a class="menu_item" data-scroll href="#placeholder">Roadmap</a> /
+                    <a class="menu_item" data-scroll href="#contact">Contact</a>
+                </nav>
+                <div id="logo"></div>
+                <p id="name">Richard Alindogan</p>
+            </section>
+            <!--About Section-->
+            <section class="block" id="about">
+                <img id="head"src="svg_assets/head%20icon%20placeholder.png"/>
+                <div id="over_container" ng-controller="descriptCtrl">
+                    <div id="word_container" ng-repeat="x in description">
+                        <p>{{x.words}}</p>
+                    </div>
+                </div>
+                <div id="facet_container" ng-controller="facetCtrl">
+                    <div id="facet_section"ng-repeat="x in facets">
+                        <p>{{x.facet}}</p>
+                        <img class="facet_icons" ng-repeat="image in x.images" ng-src="{{image}}"/>
+                    </div>
+                </div>
+            </section>
+            <!--Placeholder section until Portfolio section is implemented-->
+            <div class="block" id="placeholder">
+                <div id="ph_title"><p>Site Roadmap</p></div>
+                <div id="ph_description">
+                    <div id="ph_wrapper">
+                        <h1>A developer's work is never done</h1>
+                        <p class="ph_bit">A good developer takes the time to objectively look at their creations, and take note of any shortcomings in order to better themselves.</p>
+                        <p class="ph_bit">Like any bit of software, this website always has room for improvement.</p>
+                        <p class="ph_bit">Here's a couple of updates in the works for the months ahead...</p>
+                        <ul id="todo">
+                            <li>Portfolio section</li>
+                            <li>Format support for mobile</li>
+                            <li>Increase user responsiveness</li>
+                            <li>Preloading screen for slower connections</li>
+                            <li>Improve aesthetic unity</li>
+                            <li>Code cleanup and consistency updates</li>
+                        </ul>
+                        <img id="buggy" src="svg_assets/buggy.png"/>
+                    </div>
+                </div>
+            </div>
+            <!--Contacts-->
+            <section class="block" id="contact">
+                <div id="contact_title">
+                    <p>Contact</p>
+                    <img id="phone" src="svg_assets/phone.png">
+                </div>
+                <div id="contact_content">
+                    <p id="top_category" class="category">Email</p>
+                    <div id="main_content" ng-controller="myCtrl">
+                        <div class="info" ng-repeat="x in images">
+                            <img class="contact_icon" ng-src="{{x.image}}"/>
+                            <p>{{x.contact}}</p>
+                        </div>
+                    </div>
+                    <p class="category">Accounts</p>
+                    <div id="other_content" ng-controller="myCtrl2">
+                        <div class="info" ng-repeat="x in accounts">
+                            <a target="_blank" ng-href="{{x.link}}"><img class="contact_icon" ng-src="{{x.icon}}"/></a>
+                            <p>{{x.account}}</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Scripts-->
+        <script src="scripts/content.js"></script>
+        <script src="scripts/smooth-scroll.min.js"></script>
+        <script>smoothScroll.init();</script>
+        <script src="deploy/fss.js"></script>
+        
+    </body>
+</html>

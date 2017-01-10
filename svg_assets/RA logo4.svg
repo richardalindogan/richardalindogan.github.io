@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="720.09449"
+   height="828.3622"
+   id="svg4136"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="RA logo4.svg">
+  <defs
+     id="defs4162" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1487"
+     inkscape:window-height="848"
+     id="namedview4160"
+     showgrid="false"
+     inkscape:zoom="0.98749076"
+     inkscape:cx="360.04724"
+     inkscape:cy="414.18109"
+     inkscape:window-x="130"
+     inkscape:window-y="130"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4136" />
+  <metadata
+     id="metadata7517">image/svg+xml<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     id="g4139">
+    <title
+       id="title4141">background</title>
+    <rect
+       x="-1"
+       y="-1"
+       width="722.09449"
+       height="830.3622"
+       id="canvas_background"
+       fill="none" />
+  </g>
+  <g
+     id="g4144">
+    <title
+       id="title4146">Layer 1</title>
+    <g
+       id="layer1">
+      <rect
+         id="rect8087"
+         width="40"
+         height="800"
+         x="10"
+         y="11.311655"
+         stroke-miterlimit="4"
+         stroke-width="15"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+      <rect
+         id="rect8089"
+         width="700"
+         height="40"
+         x="10"
+         y="771.311635"
+         stroke-miterlimit="4"
+         stroke-width="15"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+      <rect
+         id="rect8091"
+         width="40"
+         height="800"
+         x="670"
+         y="11.311665"
+         stroke-miterlimit="4"
+         stroke-width="15"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+      <rect
+         id="rect8093"
+         width="700"
+         height="40"
+         x="10"
+         y="11.311655"
+         stroke-miterlimit="4"
+         stroke-width="15"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+      <rect
+         id="rect8103"
+         width="104.35606"
+         height="9.650172"
+         x="304.8808"
+         y="543.839465"
+         stroke-miterlimit="4"
+         stroke-width="10.643946"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+      <rect
+         id="rect8107"
+         width="468.12656"
+         height="4.126569"
+         x="125.93672"
+         y="727.248345"
+         stroke-miterlimit="4"
+         stroke-width="6.873431"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+      <rect
+         id="rect8107-4"
+         width="468.12656"
+         height="4.126569"
+         x="125.93672"
+         y="93.248345"
+         stroke-miterlimit="4"
+         stroke-width="6.873431"
+         stroke="#ffffff"
+         fill-opacity="0.992157"
+         fill="#ffffff" />
+    </g>
+    <g
+       id="layer2">
+      <text
+         xml:space="preserve"
+         x="356.57388"
+         y="662.662525"
+         id="text8194"
+         stroke-width="1px"
+         fill="#000000"
+         font-family="'Myriad Pro'"
+         font-size="40px"
+         font-weight="normal"
+         font-style="normal"><tspan
+           x="356.57388"
+           y="662.662525"
+           id="tspan8196"><tspan
+             x="356.57388"
+             y="662.662525"
+             id="tspan8198"
+             stroke="#ffffff"
+             fill="#ffffff"
+             text-anchor="middle"
+             font-size="750px">R</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
